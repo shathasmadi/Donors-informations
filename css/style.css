@@ -1,0 +1,122 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); */
+
+*{
+    box-sizing: border-box;
+}
+body{
+   /* padding:0px; */
+   margin: 0px;
+    background-image:url(/img/donate-background.jpg) ;
+    background-size: cover;
+    width: 100%;
+    min-height:auto;
+    font-family: 'Roboto', sans-serif;
+    
+}
+header{
+    margin: 0px;
+    background-color: rgba(96, 96, 96,.8);
+    height: 80px;
+    width: 100%;
+}
+header h1{
+    text-align: center;
+    font-size: xx-large;
+    padding-top: 10px;
+    color:#eee;
+    font-weight: bold;
+}
+main{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    column-gap: 30px;
+    padding-top: 100px;
+    padding-left: 20px;
+    min-height:0px;
+}
+
+#form{
+    background-color:rgba(96, 96, 96,.8);
+    width: 90%;
+    height: 120%;
+    padding:0px
+    
+
+}
+#form label{
+    display: block;
+    font-size: large;
+    color: #eee;
+    margin-top: 20px;
+    padding-left: 20px;
+    
+    
+
+
+}
+#form input:not(#submit),select{
+    display: block;
+    width:46%;
+    height: 15%;
+    float: right;
+    margin-right: 10px;
+}
+#submit{
+    background-color:rgb(66, 66, 66);
+    color: #eee;
+    width: 46%;
+    height: 15%;
+    /* float: right; */
+    margin-left: 52.5%;
+    font-size: large;
+}
+table, td, tr {  
+    /* display: block; */
+    border: 1px solid #eee;
+    text-align: center;
+    color: #eee;
+    font-size: x-large;
+  }
+  
+  table {
+      /* display: inline-block; */
+    position: relative;
+    border: 1px solid #ddd;
+    width: 100%;
+    height: 10%;
+    margin:40px;
+    padding-right:100px;
+    
+  
+  }
+  
+  /* th, td {
+    padding: 15px;
+  } */
+  #container{
+    background-color:rgba(96, 96, 96,.8);
+    padding:20px;
+  }
+  #h2{
+      text-align: center;
+      margin-top: 20px;
+      font-size: large;
+      color: #eee;
+  }
+  footer{
+      position: relative;
+      /* padding-top: 0px; */
+      
+  }
+footer p{
+    position: relative;
+    text-align: center;
+    background-color:rgba(96, 96, 96,.8);
+    width: 100%;
+    height: 60px;
+   color: #eee;
+   font-size: x-large;
+    margin-top: 100%;
+    padding-top: 10px; 
+
+} 
